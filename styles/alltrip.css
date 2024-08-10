@@ -1,0 +1,22 @@
+.all-trip-container {
+    display: flex;
+    margin-left: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .all-trip-container {
+        flex-wrap: wrap; /* Allow flex items to wrap to the next line */
+    }
+    
+    .all-trip-container > * {
+        width: 100%; /* Make each Trip component take full width on smaller screens */
+        margin-bottom: 15px; /* Add some spacing between Trip components */
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .all-trip-container > * {
+        width: calc(50% - 15px); /* Make each Trip take 50% width minus some margin */
+        margin-right: 15px; /* Add margin between Trip components */
+    }
+}

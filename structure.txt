@@ -1,0 +1,20 @@
+your-nextjs-project/
+├── pages/
+│   ├── api/
+│   │   ├
+│   │   │───├── [login].js         # API endpoint for user login
+│   │   │   ├── logout.js        # API endpoint for user logout
+│   │   │   └── chat.js      # API endpoint for user registration
+│   ├── index.js                 # Frontend page for user authentication
+├── models/
+│   ├── User.js                  # Model definition for User
+├── middleware/
+│   └── getServerSideProps.js           # Middleware for requiring authentication
+├── utils/
+│   └── genneratedUniqueId.js              # Utility functions for working with JWT tokens
+├── config/
+│   └── db.js                    # Database connection configuration
+├── .env                         # Environment variables
+├── package.json
+└── ...
+
