@@ -261,8 +261,8 @@ import AuthService from "../../services/authService";
 //import GoogleSignIn from './googleSignin';
 import LoginButton from './loginapi';
 //import { gapi } from 'gapi-script';
-import GoogleOAuth from './Googleoauth';
-const clientId = '457435363093-kiipu69vm2o0t6jt9orr3c28oc8gs2ka.apps.googleusercontent.com';
+// import GoogleOAuth from './Googleoauth';
+// const clientId = '457435363093-kiipu69vm2o0t6jt9orr3c28oc8gs2ka.apps.googleusercontent.com';
 
 const LoginForm = () => {
 
@@ -526,10 +526,10 @@ const LoginForm = () => {
             Sign In with Google
           </button>
         </div> */}
-        <div>
+        {/* <div>
           <h1>Sign In</h1>
           <GoogleOAuth onSuccess={handleLoginSuccess} />
-        </div>
+        </div> */}
         {/* <GoogleSignIn onSuccess={handleSuccess} onFailure={handleFailure} /> */}
         {/* <LoginButton onSuccess={handleSuccess} onFailure={handleFailure} /> */}
       </form>
